@@ -1,0 +1,135 @@
+{
+  "saludo": {
+    "palabras_clave": [
+      "hola",
+      "buenos",
+      "buenas",
+      "buen",
+      "saludos",
+      "hey"
+    ],
+    "respuestas": [
+      "¡Hola! Soy VegetIA. Puedo ayudarte con criterios de calidad, producto dañado, piezas por caja, la mesa de inspección o reportar una falla. ¿Qué necesitas?"
+    ]
+  },
+  "despedida": {
+    "palabras_clave": [
+      "adios",
+      "bye",
+      "gracias",
+      "salir",
+      "luego",
+      "terminar"
+    ],
+    "respuestas": [
+      "Gracias por usar VegetIA. ¡Buen turno!"
+    ]
+  },
+  "producto_dañado": {
+    "palabras_clave": [
+      "mancha",
+      "manchado",
+      "golpe",
+      "podrido",
+      "aguado",
+      "blando",
+      "moho",
+      "roto",
+      "danado",
+      "arrugado",
+      "golpeado",
+      "golpeada",
+      "golpeados"
+    ],
+    "respuestas": [
+      "Retira la pieza de la mesa y colócala en el contenedor de merma. No la deslices a la caja."
+    ]
+  },
+  "reportar_falla": {
+    "palabras_clave": [
+      "bascula",
+      "marca",
+      "falla",
+      "error",
+      "descompuesta",
+      "banda",
+      "atorada",
+      "reportar"
+    ],
+    "respuestas": [
+      "Detén la mesa, avisa a tu supervisor por radio y anota en la bitácora: hora, equipo y qué pasó. No empaques mientras el equipo esté en falla."
+    ]
+  },
+  "uso_mesa_inspeccion": {
+    "palabras_clave": [
+      "mesa",
+      "inspeccion",
+      "deslizar",
+      "deslizo",
+      "acomodo",
+      "acomodar"
+    ],
+    "respuestas": [
+      "Acomoda las piezas en una sola capa sobre la mesa blanca, sin encimarlas. Retira las dañadas y, cuando todo esté revisado, desliza la mesa completa hacia la caja."
+    ]
+  },
+  "criterios_calidad": {
+    "palabras_clave": [
+      "criterio",
+      "criterios",
+      "calidad",
+      "aceptar",
+      "acepta",
+      "aprobar",
+      "rechazar",
+      "rechaza"
+    ],
+    "respuestas": {
+      "tomate": "Tomate: color rojo uniforme, firme al tacto, sin grietas ni manchas, diámetro de 6 a 8 cm.",
+      "pepino": "Pepino: verde oscuro, firme, recto, de 18 a 22 cm, sin partes amarillas ni blandas.",
+      "pimiento": "Pimiento: piel brillante y lisa, firme, sin arrugas ni golpes, con el tallo completo.",
+      "general": "¿De qué producto? Puedo darte criterios de tomate, pepino o pimiento."
+    }
+  },
+  "especificacion_empaque": {
+    "palabras_clave": [
+      "cuantos",
+      "cuantas",
+      "caja",
+      "piezas",
+      "peso",
+      "kilos",
+      "kg",
+      "lleva",
+      "llevan"
+    ],
+    "respuestas": {
+      "tomate": "Caja de tomate: 10 kg, de 55 a 60 piezas en dos camas con separador.",
+      "pepino": "Caja de pepino: 24 piezas acostadas en una sola dirección, 7 kg aproximados.",
+      "pimiento": "Caja de pimiento: 25 piezas, 5 kg, con el tallo hacia arriba.",
+      "general": "¿De qué producto? Tengo especificaciones de tomate, pepino y pimiento."
+    }
+  },
+  "respaldo": {
+    "palabras_clave": [],
+    "respuestas": [
+      "No entendí tu consulta. Solo puedo ayudarte con calidad y empaque de tomate, pepino y pimiento. Intenta con otras palabras."
+    ]
+  },
+  "productos": {
+    "tomate": [
+      "tomate",
+      "tomates",
+      "jitomate",
+      "jitomates"
+    ],
+    "pepino": [
+      "pepino",
+      "pepinos"
+    ],
+    "pimiento": [
+      "pimiento",
+      "pimientos"
+    ]
+  }
+}
